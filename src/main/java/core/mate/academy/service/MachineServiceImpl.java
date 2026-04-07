@@ -6,7 +6,7 @@ import core.mate.academy.model.Machine;
 import core.mate.academy.model.Truck;
 import java.util.List;
 
-public class MachineServiceImpl <T extends Machine> implements MachineService<T> {
+public class MachineServiceImpl<T extends Machine> implements MachineService<T> {
     @Override
     public List<? extends Machine> getAll(Class<? extends Machine> type) {
         if (type == Bulldozer.class) {

@@ -4,7 +4,6 @@ import core.mate.academy.model.Bulldozer;
 import core.mate.academy.model.Machine;
 import core.mate.academy.service.MachineService;
 import core.mate.academy.service.MachineServiceImpl;
-
 import java.util.ArrayList;
 import java.util.List;
 
