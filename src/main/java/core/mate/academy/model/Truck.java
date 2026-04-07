@@ -8,6 +8,10 @@ public class Truck extends Machine {
         this.maxCapacity = maxCapacity;
     }
 
+    public int getMaxCapacity() {
+        return maxCapacity;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Truck started to work");

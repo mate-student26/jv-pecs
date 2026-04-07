@@ -8,6 +8,10 @@ public class Excavator extends Machine {
         this.maxWorkingHours = maxWorkingHours;
     }
 
+    public int getMaxWorkingHours() {
+        return maxWorkingHours;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Excavator started to work");

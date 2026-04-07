@@ -8,6 +8,10 @@ public class Bulldozer extends Machine {
         this.height = height;
     }
 
+    public int getHeight() {
+        return height;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Bulldozer started to work");
